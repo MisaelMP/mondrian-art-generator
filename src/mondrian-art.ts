@@ -245,7 +245,7 @@ export class MondrianArt extends LitElement {
 				p.clear();
 				for (let i = bubbles.length - 1; i >= 0; i--) {
 					let bubble = bubbles[i];
-					// Use stored color for bubbles
+					//  Use stored color for bubbles
 					p.fill(
 						p.red(bubble.color),
 						p.green(bubble.color),
